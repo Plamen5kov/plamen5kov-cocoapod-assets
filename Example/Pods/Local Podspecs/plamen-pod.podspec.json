@@ -1,0 +1,22 @@
+{
+  "name": "plamen-pod",
+  "version": "0.1.0",
+  "summary": "A short description of plamen-pod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/plamen5kov/plamen-pod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "plamen5kov": "plamen.krasimirov.petkov@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/plamen5kov/plamen-pod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "plamen-pod/Classes/**/*"
+}

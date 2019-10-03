@@ -1,0 +1,16 @@
+PODS:
+  - plamen-pod (0.1.0)
+
+DEPENDENCIES:
+  - plamen-pod (from `../`)
+
+EXTERNAL SOURCES:
+  plamen-pod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  plamen-pod: bbf1062bc4af52d0fba1435d6a63e5b1d8c708ff
+
+PODFILE CHECKSUM: 7517d867ec4f98b7843188f59fc811a3fd90364e
+
+COCOAPODS: 1.8.0

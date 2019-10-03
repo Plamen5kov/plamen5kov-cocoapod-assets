@@ -1,0 +1,789 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		441C14C2F3071B4EA46C52B671255265 /* plamen-pod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 824240C977A5546351ADF0EF5995C866 /* plamen-pod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F380BE139341FF3638A0438F80527DF /* Pods-plamen-pod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A079556B6CD2E62C493F21EFDE15781 /* Pods-plamen-pod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FE87AF62D3DFFD39F53F39CB540D911 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		70730117DC72484EB1572F236A8C12B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		70CCBB6887123EADBCB159CCA8ED8E70 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A43639A13E22961F4D56FE164ABCC9 /* ReplaceMe.m */; };
+		8E4E25FA234654DF005CB4F4 /* random_header.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E4E25F9234654DF005CB4F4 /* random_header.h */; };
+		90DCFA52410A510FE05EB43F29C19EA5 /* Pods-plamen-pod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E57157866B6367FB1B37A8F8D0AF91D /* Pods-plamen-pod_Tests-dummy.m */; };
+		91B274BD7FFE91A6010C27AC8312EAB3 /* plamen-pod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D1B6BE7C40FA91BC82842FB02C1FB0 /* plamen-pod-dummy.m */; };
+		B026B39A99DAD2513EB4D9580568F661 /* Pods-plamen-pod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E82BBC3BCFF2615A00F4299FB553A08 /* Pods-plamen-pod_Example-dummy.m */; };
+		B8F4145B43B9C948CD3807DCF9AA50A6 /* Pods-plamen-pod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03161A324C3E5805E5B7AEB65A28B7E8 /* Pods-plamen-pod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0AD9D4191B9A3D19C0585AB0D3819E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA1F4FB6DB1322DBDB7541657E50418F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC2B78B1A14AF41E89763A469A3EC9B1;
+			remoteInfo = "Pods-plamen-pod_Example";
+		};
+		D2976205A6267859AFF66E6B175D717F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC0254FC3E166AC658DC2463DA09D64C;
+			remoteInfo = "plamen-pod";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03161A324C3E5805E5B7AEB65A28B7E8 /* Pods-plamen-pod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-plamen-pod_Example-umbrella.h"; sourceTree = "<group>"; };
+		087C5666396B8A57C49E7BC7D9F6AB90 /* plamen-pod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "plamen-pod.modulemap"; sourceTree = "<group>"; };
+		09D1B6BE7C40FA91BC82842FB02C1FB0 /* plamen-pod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "plamen-pod-dummy.m"; sourceTree = "<group>"; };
+		0E82BBC3BCFF2615A00F4299FB553A08 /* Pods-plamen-pod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-plamen-pod_Example-dummy.m"; sourceTree = "<group>"; };
+		18D8B4507F54093AF5F18A2B81B37F75 /* plamen-pod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "plamen-pod-Info.plist"; sourceTree = "<group>"; };
+		192A4EE99E431DA49B65E82BF3AB29C8 /* Pods-plamen-pod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-plamen-pod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1956FBDABE8A56949A0D87237FACB581 /* plamen_pod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = plamen_pod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BDE4762ABA28FA2AACB4DF00C865D7D /* Pods-plamen-pod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-plamen-pod_Tests.modulemap"; sourceTree = "<group>"; };
+		1E4D6A6F31BD736B9C3BED1E6E5DCCBE /* Pods-plamen-pod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-plamen-pod_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3A079556B6CD2E62C493F21EFDE15781 /* Pods-plamen-pod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-plamen-pod_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3BF49B8360DF76206B9F4D8CD35582EA /* Pods-plamen-pod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-plamen-pod_Example.modulemap"; sourceTree = "<group>"; };
+		592AC8297826669AB24EE02302CE1F4A /* Pods-plamen-pod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-plamen-pod_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		64F7D11F542E2F4144FF2FAFD51077A2 /* plamen-pod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "plamen-pod-prefix.pch"; sourceTree = "<group>"; };
+		7E57157866B6367FB1B37A8F8D0AF91D /* Pods-plamen-pod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-plamen-pod_Tests-dummy.m"; sourceTree = "<group>"; };
+		824240C977A5546351ADF0EF5995C866 /* plamen-pod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "plamen-pod-umbrella.h"; sourceTree = "<group>"; };
+		89A43639A13E22961F4D56FE164ABCC9 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = "plamen-pod/Classes/ReplaceMe.m"; sourceTree = "<group>"; };
+		8E4E25F9234654DF005CB4F4 /* random_header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = random_header.h; sourceTree = "<group>"; };
+		927A8F8197909729019243E9DCC312DD /* Pods-plamen-pod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-plamen-pod_Example-frameworks.sh"; sourceTree = "<group>"; };
+		95861FF670FD1A02E2846752064BF00F /* Pods-plamen-pod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-plamen-pod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		972F7F3BD5821458FC42E5F2BC1B4D97 /* Pods-plamen-pod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-plamen-pod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A36EC891437E630CEAB5502097A50BFE /* Pods-plamen-pod_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-plamen-pod_Example-Info.plist"; sourceTree = "<group>"; };
+		A631BC093E652DA1CAB9E6305F1A691A /* plamen-pod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "plamen-pod.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AF7FE79393ABF45085990386769CA8DE /* Pods-plamen-pod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-plamen-pod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B6B6080F19B949DD5D0DA674681C4C63 /* plamen-pod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "plamen-pod.xcconfig"; sourceTree = "<group>"; };
+		BA6C9FB4FBB49A325D1C3948CB1B2ED3 /* Pods_plamen_pod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_plamen_pod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1CD52AE80DAFAE7D59432913C144638 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		CDA46D9B99D4D74EE1AD82AD9E00B4C1 /* Pods-plamen-pod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-plamen-pod_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D3507004D988742A1296CD144183C51B /* Pods-plamen-pod_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-plamen-pod_Tests-Info.plist"; sourceTree = "<group>"; };
+		D53E4E937909CB62D75BD366CFFB53FD /* Pods_plamen_pod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_plamen_pod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD886B8FDD61DB5172D162471C191565 /* Pods-plamen-pod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-plamen-pod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC2F4603F838B157B5EDFBBE3B50B02A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4281513963E9E75399EC751F0AF4535F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70730117DC72484EB1572F236A8C12B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53BE5DF644AF3DE44128D798F625E751 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FE87AF62D3DFFD39F53F39CB540D911 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFF6C460851E9F76CE30B7C30FB6C743 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0AD9D4191B9A3D19C0585AB0D3819E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		119F441E8089E29BF788AA6A5D05FC53 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				087C5666396B8A57C49E7BC7D9F6AB90 /* plamen-pod.modulemap */,
+				B6B6080F19B949DD5D0DA674681C4C63 /* plamen-pod.xcconfig */,
+				09D1B6BE7C40FA91BC82842FB02C1FB0 /* plamen-pod-dummy.m */,
+				18D8B4507F54093AF5F18A2B81B37F75 /* plamen-pod-Info.plist */,
+				64F7D11F542E2F4144FF2FAFD51077A2 /* plamen-pod-prefix.pch */,
+				824240C977A5546351ADF0EF5995C866 /* plamen-pod-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/plamen-pod";
+			sourceTree = "<group>";
+		};
+		35337C3990CBA7389BB58E728E1CDF1C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C1CD52AE80DAFAE7D59432913C144638 /* LICENSE */,
+				A631BC093E652DA1CAB9E6305F1A691A /* plamen-pod.podspec */,
+				EC2F4603F838B157B5EDFBBE3B50B02A /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3542A1391A7F9AB1A8A78EC72031B3ED /* Pods-plamen-pod_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1BDE4762ABA28FA2AACB4DF00C865D7D /* Pods-plamen-pod_Tests.modulemap */,
+				192A4EE99E431DA49B65E82BF3AB29C8 /* Pods-plamen-pod_Tests-acknowledgements.markdown */,
+				972F7F3BD5821458FC42E5F2BC1B4D97 /* Pods-plamen-pod_Tests-acknowledgements.plist */,
+				7E57157866B6367FB1B37A8F8D0AF91D /* Pods-plamen-pod_Tests-dummy.m */,
+				D3507004D988742A1296CD144183C51B /* Pods-plamen-pod_Tests-Info.plist */,
+				3A079556B6CD2E62C493F21EFDE15781 /* Pods-plamen-pod_Tests-umbrella.h */,
+				DD886B8FDD61DB5172D162471C191565 /* Pods-plamen-pod_Tests.debug.xcconfig */,
+				592AC8297826669AB24EE02302CE1F4A /* Pods-plamen-pod_Tests.release.xcconfig */,
+			);
+			name = "Pods-plamen-pod_Tests";
+			path = "Target Support Files/Pods-plamen-pod_Tests";
+			sourceTree = "<group>";
+		};
+		5E842C8E25EDBCD2413A5B8115EB9F3D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6D602AAD0DD0EA20F7F1A2A99CDE9FB /* Pods-plamen-pod_Example */,
+				3542A1391A7F9AB1A8A78EC72031B3ED /* Pods-plamen-pod_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8E4E25F7234654DF005CB4F4 /* f1 */ = {
+			isa = PBXGroup;
+			children = (
+				8E4E25F8234654DF005CB4F4 /* f2 */,
+			);
+			name = f1;
+			path = "plamen-pod/Classes/f1";
+			sourceTree = "<group>";
+		};
+		8E4E25F8234654DF005CB4F4 /* f2 */ = {
+			isa = PBXGroup;
+			children = (
+				8E4E25F9234654DF005CB4F4 /* random_header.h */,
+			);
+			path = f2;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				EB788E12C288EDCF0097F846BE688684 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E07A0985706A78E765B80A16E9B29084 /* Products */,
+				5E842C8E25EDBCD2413A5B8115EB9F3D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E07A0985706A78E765B80A16E9B29084 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1956FBDABE8A56949A0D87237FACB581 /* plamen_pod.framework */,
+				D53E4E937909CB62D75BD366CFFB53FD /* Pods_plamen_pod_Example.framework */,
+				BA6C9FB4FBB49A325D1C3948CB1B2ED3 /* Pods_plamen_pod_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E26B83C276E86C06B14776504B0064C7 /* plamen-pod */ = {
+			isa = PBXGroup;
+			children = (
+				8E4E25F7234654DF005CB4F4 /* f1 */,
+				89A43639A13E22961F4D56FE164ABCC9 /* ReplaceMe.m */,
+				35337C3990CBA7389BB58E728E1CDF1C /* Pod */,
+				119F441E8089E29BF788AA6A5D05FC53 /* Support Files */,
+			);
+			name = "plamen-pod";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EB788E12C288EDCF0097F846BE688684 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E26B83C276E86C06B14776504B0064C7 /* plamen-pod */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F6D602AAD0DD0EA20F7F1A2A99CDE9FB /* Pods-plamen-pod_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3BF49B8360DF76206B9F4D8CD35582EA /* Pods-plamen-pod_Example.modulemap */,
+				AF7FE79393ABF45085990386769CA8DE /* Pods-plamen-pod_Example-acknowledgements.markdown */,
+				95861FF670FD1A02E2846752064BF00F /* Pods-plamen-pod_Example-acknowledgements.plist */,
+				0E82BBC3BCFF2615A00F4299FB553A08 /* Pods-plamen-pod_Example-dummy.m */,
+				927A8F8197909729019243E9DCC312DD /* Pods-plamen-pod_Example-frameworks.sh */,
+				A36EC891437E630CEAB5502097A50BFE /* Pods-plamen-pod_Example-Info.plist */,
+				03161A324C3E5805E5B7AEB65A28B7E8 /* Pods-plamen-pod_Example-umbrella.h */,
+				CDA46D9B99D4D74EE1AD82AD9E00B4C1 /* Pods-plamen-pod_Example.debug.xcconfig */,
+				1E4D6A6F31BD736B9C3BED1E6E5DCCBE /* Pods-plamen-pod_Example.release.xcconfig */,
+			);
+			name = "Pods-plamen-pod_Example";
+			path = "Target Support Files/Pods-plamen-pod_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9E9DF931882CB1C565301063DE6EE3AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F380BE139341FF3638A0438F80527DF /* Pods-plamen-pod_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0FA64386A36CCD9AF60AC9ADCE1010D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8F4145B43B9C948CD3807DCF9AA50A6 /* Pods-plamen-pod_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6CB7C1C109FC3C535F735F5FD19EC02 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E4E25FA234654DF005CB4F4 /* random_header.h in Headers */,
+				441C14C2F3071B4EA46C52B671255265 /* plamen-pod-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		20784B89715BCFD974479FE6A7ECC302 /* Pods-plamen-pod_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 417434BD7C365F0F7A6FAADB4468D699 /* Build configuration list for PBXNativeTarget "Pods-plamen-pod_Tests" */;
+			buildPhases = (
+				9E9DF931882CB1C565301063DE6EE3AB /* Headers */,
+				515500E793BE1C437AAA1BDC878A0B90 /* Sources */,
+				4281513963E9E75399EC751F0AF4535F /* Frameworks */,
+				ECF920A13E1702592663A5CA93FEE536 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEB3691C67105C5C8306C2C566F23230 /* PBXTargetDependency */,
+			);
+			name = "Pods-plamen-pod_Tests";
+			productName = "Pods-plamen-pod_Tests";
+			productReference = BA6C9FB4FBB49A325D1C3948CB1B2ED3 /* Pods_plamen_pod_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CC0254FC3E166AC658DC2463DA09D64C /* plamen-pod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13A768E294A19679F8DB30AF6FF64C86 /* Build configuration list for PBXNativeTarget "plamen-pod" */;
+			buildPhases = (
+				E6CB7C1C109FC3C535F735F5FD19EC02 /* Headers */,
+				0B169E9A19FE522F3F277ECAFF7B463E /* Sources */,
+				CFF6C460851E9F76CE30B7C30FB6C743 /* Frameworks */,
+				AA094DC8492B21F2CD647592CFA72F31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "plamen-pod";
+			productName = "plamen-pod";
+			productReference = 1956FBDABE8A56949A0D87237FACB581 /* plamen_pod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CC2B78B1A14AF41E89763A469A3EC9B1 /* Pods-plamen-pod_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE77D3CA44AE4879F42DBA31D483B3B6 /* Build configuration list for PBXNativeTarget "Pods-plamen-pod_Example" */;
+			buildPhases = (
+				D0FA64386A36CCD9AF60AC9ADCE1010D /* Headers */,
+				012AA9FFA888CE9CC018996D514E6E1D /* Sources */,
+				53BE5DF644AF3DE44128D798F625E751 /* Frameworks */,
+				AC80E444D8A137BFB43A60CCC80C7853 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF9520E7AEAD86F15E45E5302EF9501B /* PBXTargetDependency */,
+			);
+			name = "Pods-plamen-pod_Example";
+			productName = "Pods-plamen-pod_Example";
+			productReference = D53E4E937909CB62D75BD366CFFB53FD /* Pods_plamen_pod_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E07A0985706A78E765B80A16E9B29084 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC0254FC3E166AC658DC2463DA09D64C /* plamen-pod */,
+				CC2B78B1A14AF41E89763A469A3EC9B1 /* Pods-plamen-pod_Example */,
+				20784B89715BCFD974479FE6A7ECC302 /* Pods-plamen-pod_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA094DC8492B21F2CD647592CFA72F31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC80E444D8A137BFB43A60CCC80C7853 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF920A13E1702592663A5CA93FEE536 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		012AA9FFA888CE9CC018996D514E6E1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B026B39A99DAD2513EB4D9580568F661 /* Pods-plamen-pod_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B169E9A19FE522F3F277ECAFF7B463E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B274BD7FFE91A6010C27AC8312EAB3 /* plamen-pod-dummy.m in Sources */,
+				70CCBB6887123EADBCB159CCA8ED8E70 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		515500E793BE1C437AAA1BDC878A0B90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90DCFA52410A510FE05EB43F29C19EA5 /* Pods-plamen-pod_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEB3691C67105C5C8306C2C566F23230 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-plamen-pod_Example";
+			target = CC2B78B1A14AF41E89763A469A3EC9B1 /* Pods-plamen-pod_Example */;
+			targetProxy = CA1F4FB6DB1322DBDB7541657E50418F /* PBXContainerItemProxy */;
+		};
+		BF9520E7AEAD86F15E45E5302EF9501B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "plamen-pod";
+			target = CC0254FC3E166AC658DC2463DA09D64C /* plamen-pod */;
+			targetProxy = D2976205A6267859AFF66E6B175D717F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		111075DF823A9DF3123E5B4B0DF1E0E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6B6080F19B949DD5D0DA674681C4C63 /* plamen-pod.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/plamen-pod/plamen-pod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/plamen-pod/plamen-pod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/plamen-pod/plamen-pod.modulemap";
+				PRODUCT_MODULE_NAME = plamen_pod;
+				PRODUCT_NAME = plamen_pod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		27C48AD29161CF1570CE552A2209301F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDA46D9B99D4D74EE1AD82AD9E00B4C1 /* Pods-plamen-pod_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-plamen-pod_Example/Pods-plamen-pod_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-plamen-pod_Example/Pods-plamen-pod_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4D2755F2B994CDD53CFF7649E0F97FCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD886B8FDD61DB5172D162471C191565 /* Pods-plamen-pod_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-plamen-pod_Tests/Pods-plamen-pod_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-plamen-pod_Tests/Pods-plamen-pod_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7C5DA09ECC165C2179ACF6123C4EB454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E4D6A6F31BD736B9C3BED1E6E5DCCBE /* Pods-plamen-pod_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-plamen-pod_Example/Pods-plamen-pod_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-plamen-pod_Example/Pods-plamen-pod_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		86828B668B6724DF545033708463600F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6B6080F19B949DD5D0DA674681C4C63 /* plamen-pod.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/plamen-pod/plamen-pod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/plamen-pod/plamen-pod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/plamen-pod/plamen-pod.modulemap";
+				PRODUCT_MODULE_NAME = plamen_pod;
+				PRODUCT_NAME = plamen_pod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D0238CBA8E8855ED28E81E76782D17BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 592AC8297826669AB24EE02302CE1F4A /* Pods-plamen-pod_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-plamen-pod_Tests/Pods-plamen-pod_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-plamen-pod_Tests/Pods-plamen-pod_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13A768E294A19679F8DB30AF6FF64C86 /* Build configuration list for PBXNativeTarget "plamen-pod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				111075DF823A9DF3123E5B4B0DF1E0E9 /* Debug */,
+				86828B668B6724DF545033708463600F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		417434BD7C365F0F7A6FAADB4468D699 /* Build configuration list for PBXNativeTarget "Pods-plamen-pod_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D2755F2B994CDD53CFF7649E0F97FCA /* Debug */,
+				D0238CBA8E8855ED28E81E76782D17BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE77D3CA44AE4879F42DBA31D483B3B6 /* Build configuration list for PBXNativeTarget "Pods-plamen-pod_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27C48AD29161CF1570CE552A2209301F /* Debug */,
+				7C5DA09ECC165C2179ACF6123C4EB454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

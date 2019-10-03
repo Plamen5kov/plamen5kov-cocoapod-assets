@@ -1,0 +1,6 @@
+framework module Pods_plamen_pod_Example {
+  umbrella header "Pods-plamen-pod_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
