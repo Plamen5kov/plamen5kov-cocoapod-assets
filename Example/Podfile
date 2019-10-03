@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'plamen-pod_Example' do
+  pod 'plamen-pod', :path => '../'
+
+  target 'plamen-pod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
