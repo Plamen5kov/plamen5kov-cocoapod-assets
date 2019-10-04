@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'plamen-pod'
-  s.version          = '1.1.4'
+  s.version          = '1.1.5'
   s.summary          = 'Test pod to understand how subspecs work'
 
 # This description is used to generate tags and improve search results.
@@ -31,6 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'plamen-pod/Classes/**/*'
+  s.header_mappings_dir = 'Classes/'
   s.header_dir = "my/headerdir"
   
   # s.resource_bundles = {
