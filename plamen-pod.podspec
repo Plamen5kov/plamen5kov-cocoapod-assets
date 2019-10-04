@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'plamen-pod'
-  s.version          = '1.1.1'
+  s.version          = '1.1.3'
   s.summary          = 'Test pod to understand how subspecs work'
 
 # This description is used to generate tags and improve search results.
